@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9D061C66-EE09-4E70-873F-FEFD842A7233}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9C41F336-1B32-4DC8-8611-3383545E222C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ports", "ports", "{E1A80F61-7E5E-4712-8B09-E657817CB19C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{1D7E9638-C4D5-4686-ADCA-C06340BD5B70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullAuthNET8.Api", "src\ports\FullAuthNET8.Api\FullAuthNET8.Api.csproj", "{29FD5C7E-A805-4185-BF18-4B27C092DC72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullAuthNET8.Infrastructure", "src\core\FullAuthNET8.Infrastructure\FullAuthNET8.Infrastructure.csproj", "{0AE24195-9812-4912-ABA8-F024D2979994}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullAuthNET8.Core", "src\core\FullAuthNET8.Core\FullAuthNET8.Core.csproj", "{2301E416-FCC0-4736-B79F-EDE4A6EE75EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullAuthNET8.Application", "src\core\FullAuthNET8.Application\FullAuthNET8.Application.csproj", "{05853698-8327-4E3E-A66E-35E31276F255}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29FD5C7E-A805-4185-BF18-4B27C092DC72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29FD5C7E-A805-4185-BF18-4B27C092DC72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29FD5C7E-A805-4185-BF18-4B27C092DC72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29FD5C7E-A805-4185-BF18-4B27C092DC72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AE24195-9812-4912-ABA8-F024D2979994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE24195-9812-4912-ABA8-F024D2979994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE24195-9812-4912-ABA8-F024D2979994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE24195-9812-4912-ABA8-F024D2979994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2301E416-FCC0-4736-B79F-EDE4A6EE75EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2301E416-FCC0-4736-B79F-EDE4A6EE75EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2301E416-FCC0-4736-B79F-EDE4A6EE75EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2301E416-FCC0-4736-B79F-EDE4A6EE75EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05853698-8327-4E3E-A66E-35E31276F255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05853698-8327-4E3E-A66E-35E31276F255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05853698-8327-4E3E-A66E-35E31276F255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05853698-8327-4E3E-A66E-35E31276F255}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E1A80F61-7E5E-4712-8B09-E657817CB19C} = {9D061C66-EE09-4E70-873F-FEFD842A7233}
+		{1D7E9638-C4D5-4686-ADCA-C06340BD5B70} = {9D061C66-EE09-4E70-873F-FEFD842A7233}
+		{29FD5C7E-A805-4185-BF18-4B27C092DC72} = {E1A80F61-7E5E-4712-8B09-E657817CB19C}
+		{0AE24195-9812-4912-ABA8-F024D2979994} = {1D7E9638-C4D5-4686-ADCA-C06340BD5B70}
+		{2301E416-FCC0-4736-B79F-EDE4A6EE75EB} = {1D7E9638-C4D5-4686-ADCA-C06340BD5B70}
+		{05853698-8327-4E3E-A66E-35E31276F255} = {1D7E9638-C4D5-4686-ADCA-C06340BD5B70}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24A06EE2-F2AF-4A6D-968F-44282992EB22}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+@FullAuthNET8.Api_HostAddress = http://localhost:5196
+
+GET {{FullAuthNET8.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
